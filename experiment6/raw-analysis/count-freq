@@ -1,0 +1,45 @@
+#!/usr/bin/perl 
+
+# Usage: 
+# ./count-freq < input-file > output-file
+#
+# Descrption:
+# input-file is a dataset (each line represents set)
+# output-file - frequency of each element from dataset \Sigma
+#
+# Date: 10/19/2020
+# Author: Iztok Savnik
+
+# consts
+$ln = ();
+$fst = 1;
+$lsum = 0;
+$cnt = 0;
+%st = ();
+
+# check lines of in file
+while (<STDIN>) {
+
+    chop;
+
+    @ln = split "\,";
+    #for $e (@ln) {
+    #    print $e." ";
+    #} 
+    #print "\n";
+
+    for $e (@ln) {
+        if (!defined $st{$e}) { 
+           $st{$e} = 1; 
+        } else { 
+           $st{$e} += 1; 
+        }
+    }
+
+    #print $_."\n";
+}
+
+@sln = sort { $a <=> $b } (keys %st);
+for $e (@sln) {
+    print $e." ".$st{$e}."\n";
+}

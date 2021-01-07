@@ -1,0 +1,37 @@
+#!/usr/bin/perl 
+
+# Usage: 
+# ./count-sizes < input-file > output-file
+#
+# Descrption:
+# input-file is a dataset (each line is a set). 
+# output-file - count sets for each particular set size.
+#
+# Date: 10/19/2020
+# Author: Iztok Savnik
+
+# consts
+$ln = ();
+$fst = 1;
+$sum = 0;
+$cnt = 0;
+%st = ();
+
+# check lines of in file
+while (<STDIN>) {
+
+    chop;
+
+    @ln = split "\,";
+    #for $e (@ln) {
+    #    print $e." ";
+    #} 
+    #print "\n";
+
+    print $_." ".(scalar @ln)."\n";
+
+    $sum += (scalar @ln);
+    $cnt++;
+}
+
+print "avg=".($sum/$cnt)."\n";
