@@ -11,12 +11,12 @@ A line in the file represents a set. Each set consists of a sorted sequence of i
 
 ### Sampling
 
-The *raw* datasets [**msnbc**](msnbc.data) and [**msweb**](msweb.data) are processed to eliminate duplicates and sampled randomly with the following proportions:
+The *raw* datasets [**msnbc**](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msnbc/raw/msnbc.data) and [**msweb**](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msweb/raw/msweb.data) are processed to eliminate duplicates and sampled randomly with the following proportions:
 
 ##### MSNBC
-- [train](msnbc.data.train): 80%
-- [test](msnbc.data.test): 20%
+- [train](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msnbc/prepared/msnbc.data.train): 80%
+- [test](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msnbc/prepared/msnbc.data.test): 20%
 
 ##### MSWEB
-- [train](msweb.data.train): 100%
-- [test](msweb.data.test): 20%
+- [train](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msweb/prepared/msweb.data.train): 100%
+- [test](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msweb/prepared/msweb.data.test): 20%
