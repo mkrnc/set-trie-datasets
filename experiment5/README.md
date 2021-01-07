@@ -1,6 +1,6 @@
-# MSWEB Dataset
+# MSNBC Dataset
 
-The dataset [**msweb**]() stores the data about accessing the pages of two Web servers by random users.
+The dataset [**msnbc**]() stores the data about accessing the pages of two Web servers by random users.
 
 Each dataset is converted to a form of a multiset of sets and was adapted to meet the required format of [set-trie](https://bitbucket.org/isavnik/settrie/) and [inverted index](https://github.com/nick-ak96/InvertedIndex) benchmark programs.
 
@@ -13,5 +13,5 @@ A line in the file represents a set. Each set consists of a sorted sequence of i
 
 The *raw* dataset is processed to eliminate duplicates and sampled randomly with the following proportions:
 
-- [train](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment6/msweb.data.train): 100%
-- [test](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment6/msweb.data.test): 20%
+- [train](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment5/msnbc.data.train): 100%
+- [test](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment5/msnbc.data.test): 20%
