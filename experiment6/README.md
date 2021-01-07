@@ -2,7 +2,7 @@
 
 The dataset [**msweb**]() stores the data about accessing the pages of two Web servers by random users.
 
-Each dataset is converted to a form of a multiset of sets and was adapted to meet the required format of [set-trie](https://bitbucket.org/isavnik/settrie/) and [inverted index](https://github.com/nick-ak96/InvertedIndex) benchmark programs.
+The dataset is converted to a form of a multiset of sets and was adapted to meet the required format of [set-trie](https://bitbucket.org/isavnik/settrie/) and [inverted index](https://github.com/nick-ak96/InvertedIndex) benchmark programs.
 
 The *raw* datafile represents the whole dataset converted to the form of a set of sets in a numeric representation. The sets in the file are in the original order. The *raw* file is used for sampling *train* and *test* datasets. The *train* part is used to initialize the data structure and the *test* part is used for querying. Since [set-trie](https://bitbucket.org/isavnik/settrie/) ignores duplicates they were eliminated before sampling.
 
