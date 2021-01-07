@@ -1,6 +1,6 @@
-# Datasets
+# MSWEB Dataset
 
-The datasets [**msnbc**]() and [**msweb**]() store the data about accessing the pages of two Web servers by random users.
+The dataset [**msweb**]() stores the data about accessing the pages of two Web servers by random users.
 
 Each dataset is converted to a form of a multiset of sets and was adapted to meet the required format of [set-trie](https://bitbucket.org/isavnik/settrie/) and [inverted index](https://github.com/nick-ak96/InvertedIndex) benchmark programs.
 
@@ -11,12 +11,7 @@ A line in the file represents a set. Each set consists of a sorted sequence of i
 
 ### Sampling
 
-The *raw* datasets [**msnbc**](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msnbc/raw/msnbc.data) and [**msweb**](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msweb/raw/msweb.data) are processed to eliminate duplicates and sampled randomly with the following proportions:
+The *raw* dataset [**msweb**](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msweb/raw/msweb.data) is processed to eliminate duplicates and sampled randomly with the following proportions:
 
-##### MSNBC
-- [train](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msnbc/prepared/msnbc.data.train): 80%
-- [test](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msnbc/prepared/msnbc.data.test): 20%
-
-##### MSWEB
 - [train](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msweb/prepared/msweb.data.train): 100%
 - [test](https://github.com/mkrnc/set-trie-datasets/blob/main/experiment_6/msweb/prepared/msweb.data.test): 20%
