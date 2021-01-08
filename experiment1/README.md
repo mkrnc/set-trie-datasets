@@ -6,6 +6,6 @@ The test set of sets $T$ of size $M$ is generated in a similar way to the genera
 
 ### Datasets of Experiment 1
 
-The sets of sets used for the generation of set-tries in Experiment 1 are named "*s-trie_sigma=25_n=N.txt*", where the size of the alphabet $\Sigma$ is 25, and *N* has the values 10000, 20000, 40000, 80000, 160000, and 320000. 
+The sets of sets used for the generation of set-tries in Experiment 1 are named `*s-trie_sigma=25_n=N.txt*`, where the size of the alphabet $\Sigma$ is 25, and *N* has the values 10000, 20000, 40000, 80000, 160000, and 320000. 
 
-The test sets of sets used in Experiment 1 have the name "*flat-input_sigma=25_M=M.txt*", where $\sigma$ is 25, and *M* has the values 15000 and 50000. 
+The test sets of sets used in Experiment 1 have the name `*flat-input_sigma=25_M=M.txt*`, where $\sigma$ is 25, and *M* has the values 15000 and 50000. 
