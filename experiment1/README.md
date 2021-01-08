@@ -1,6 +1,6 @@
 # Artificially generated sets of sets for Experiment 1
 
-We construct the sets of sets used for the construction of set-tries $S$ from the collection of $N$ subsets of an alphabet $\Sigma$, where each subset is selected from $\mathcal{P}(\Sigma)$ uniformly at random, each by a given probability $p$. In other words, we traverse through all subsets of $\Sigma$ and add each set to $S$ with probability ~$p$.
+The sets of sets used for the construction of set-tries $S$ are generated from the collection of $N$ subsets of an alphabet $\Sigma$, where each subset is selected from $\mathcal{P}(\Sigma)$ uniformly at random, each by a given probability $p$. In other words, we traverse through all subsets of $\Sigma$ and add each set to $S$ with probability ~$p$.
 
 The test set of sets $T$ of size $M$ is generated in a similar way to the generation of sets for the construction of the set-tries $S$. However, we construct $T$ so that all lengths of sets from $T$ have approximately the same number of instances. Note that the parameters $p$ and $M$ have a direct influence on the cardinality of a given set-trie or test set, respectively.
 
